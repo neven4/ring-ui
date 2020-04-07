@@ -8,8 +8,7 @@ const baseUrl = `http://${ip.address()}:9999/`;
 
 const gridUrl = process.env.SELENIUM_GRID ||
   `https://${process.env.BROWSERSTACK_NAME}:${process.env.BROWSERSTACK_KEY}@hub-cloud.browserstack.com/wd/hub`;
-// Supports Firefox
-const windowSize = '1024x1000';
+const windowSize = '1024x700';
 const os = 'Windows';
 const os_version = '10';
 const RELAXED_TOLERANCE = 7;
